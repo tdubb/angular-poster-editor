@@ -1,0 +1,269 @@
+.navbar {
+  margin-top: 20px;
+}
+
+.shot .title {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+.stats {
+  background: #CCC;
+  opacity: 0.5;
+  text-align: center;
+  padding: 4px 0;
+}
+
+.stats .stat {
+  padding: 5px;
+}
+
+.shot_image {
+  width: 100%;
+}
+
+
+.shot_header {
+  margin-bottom: 20px;
+}
+
+.shot_header h1 {
+  font-size: 24px;
+  line-height: 1;
+  margin-top: 5px;
+}
+
+.shot_header img {
+  height: 60px;
+}
+
+
+.comment img {
+  height: 60px;
+  width: 60px;
+}
+
+.blue {
+  background-image: url("http://graphicsheat.com/wp-content/uploads/2013/08/thumbbig-316665.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  color: yellow;
+  text-shadow: 2px 2px #ff0000;
+}
+
+
+.carousel li {
+  display: none;
+}
+
+.blue #time{
+
+
+ color: yellow;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.blue #title {
+  font-size: 5em;
+  /*color: yellow;*/
+}
+
+.blue #venue {
+  font-size: 2em;
+  /*color: green;*/
+}
+
+.blue #description {
+  font-size: 3em;
+  color: yellow;
+}
+
+.blue #date {
+  margin-top: 430px;
+  color: yellow;
+}
+
+
+.red {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(red, orange);
+
+}
+
+.red #img {
+  background-image: url("https://addons.opera.com/media/image-cache/themes/45/90445/1.0-rev1/images/bf9f1d0e-8813-4500-a38e-2f2923f70f4e_details_big.jpe");
+}
+
+.red #title {
+  font-size: 8em;
+  color: orange;
+  font-weight: bold;
+}
+
+.red #img {
+
+}
+
+.red #at {
+  margin-top: 350px;
+  color: red;
+}
+
+.red #venue {
+  font-size: 4em;
+  color: red;
+}
+
+.red #description {
+  color: red;
+  font-size: 2.5em;
+}
+
+.red #time {
+  color: red;
+  font-size: 2.5em;
+}
+
+.red #date {
+  color: red;
+  font-size: 2.5em;
+}
+
+.red #organizer {
+  color: red;
+  font-size: 2.5em;
+}
+
+.green {
+  background: url("http://www.psdgraphics.com/file/colorful-triangles-background.jpg");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4.5em;
+  border-color: black;
+  border: solid;
+  background-color: blue;
+}
+
+.green #title {
+}
+
+body {
+  background-image:
+    linear-gradient(
+      to right, 
+      #fffdc2,
+      #fffdc2 12%,
+      #d7f0a2 12%,
+      #d7f0a2 88%,
+      #fffdc2 88%
+    );
+}
+
+.input {
+  text-align: center;
+}
+
+.balloons {
+  background-image: url("https://s3.amazonaws.com/uploads.hipchat.com/29170/471879/yxc3orBPKT41ARP/balloonbackground.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "pipa";
+  font-size: 1em;
+}
+
+.balloons #title {
+  font-size: 6em;
+  padding-top: 250px;
+  text-decoration: underline;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.balloons #date {
+  display: inline;
+}
+
+.checkbox {
+  vertical-align: sub;
+  min-height: 20px;
+  min-width: 20px;
+}
+
+.color {
+  width: 40px;
+}
+
+.balloons #venue {
+  padding-top: -20px;
+  display: inline;
+}
+
+.balloons #venue:after {
+  content: " | ";
+}
+
+.balloons #at {
+  display: none;
+}
+
+.balloons #time {
+  visibility: hidden;
+}
+
+.balloons #description {
+  visibility: hidden;
+}
+
+.ballons #img {
+  display: inline;
+}
+
+.balloons #organizer {
+  padding-top: 10px;
+}
+
+.beard {
+  background-image: url(/posters/Beard.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: red;
+  font-size: 3em;
+  text-shadow: 0px -11px 2px rgba(229, 255, 68, 0.67);
+}
+
+.beard #title {
+  padding-top: 20px;
+  font-size: 3em;
+}
+
+.beard #at {
+  margin-top: 80px;
+  margin-left: -500px;
+  transform: rotate(90deg);
+}
+
+.beard #venue {
+  margin-left: -500px;
+  margin-top: 120px;
+  transform: rotate(90deg);
+}
+
+.beard #time {
+  padding-top: 135px;
+}
+
+.beard #date {
+  transform: rotate(-90deg);
+  margin-right: -500px;
+  margin-top:-80px;
+}
+
+.number {
+  width: 40px;
+}
